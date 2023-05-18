@@ -1,49 +1,50 @@
-body{
-    background-color: #deead3;
+body {
+  background-color: #deead3;
 }
 /* Adding a width for the webpage */
-.wrapper{
-    width: 1200px;
-    margin: 0 auto;
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-h1{
-background-color:#8a9981;
-color:#FFF8DE;
-padding: 10px;
-padding-left: 15px;
-
+h1 {
+  background-color: #8a9981;
+  color: #fff8de;
+  padding: 10px;
+  padding-left: 15px;
+  font-family: "Sacramento", cursive;
 }
 /* Adding a max-width and float for a responsive image */
-#me{
-    max-width: 150px;
-    float: left;
-    padding-right: 15px;
+#me {
+  max-width: 150px;
+  float: left;
+  padding-right: 15px;
 }
 
 /* Adding a clearfix for wrapped text */
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-p{
-    color:#5a6453;
-    padding: 10px;
-    font-size: 18px
+  content: "";
+  clear: both;
+  display: table;
 }
 
-dl{
-    background-color:#8a9981;
-    color: #FFF8DE;
-    padding: 15px;
+p {
+  color: #5a6453;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Rokkitt", serif;
 }
-dt{
-    font-weight: bold;
-    font-size: 1.15rem;
+
+dl {
+  background-color: #8a9981;
+  color: #fff8de;
+  padding: 15px;
+}
+dt {
+  font-weight: bold;
+  font-size: 1.15rem;
 }
 /* Eliminating any indentation for the description list data */
-dd{
-    margin:0;
+dd {
+  margin: 0;
 }
